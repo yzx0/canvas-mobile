@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//at.alicdn.com/t/font_956334_bg2mh9jeewd.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>画板</title>
+</head>
+<body>
+    <canvas class="xxx" id='xxx'></canvas>
+    
+      <div id='tool' class="tool">
+        <svg  id="pencil" class="icon active" aria-hidden="true">
+            <use xlink:href="#icon-pencil"></use>
+        </svg>
+        <svg id="eraser" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-Eraser-Tool"></use>
+        </svg>
+        <svg id="clear" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-delete"></use>
+        </svg>
+        <svg id="buttonSave" class="icon" aria-hidden="true">
+            <use xlink:href="#icon-icons_save"></use>
+        </svg>
+      </div>
+      
+      <div class="palette" id="palette">
+          <ol>
+              <li class="red" id="red"></li>
+              <li class="green" id="green"></li>
+              <li class="blue" id="blue"></li>
+          </ol>
+      </div>
+      
+      <div class="pencilSize" id="pencilSize">
+          <ol>
+              <li class="onePx" id="onePx"></li>
+              <li class="fivePx" id="fivePx"></li>
+              <li class="tenPx" id="tenPx"></li>
+          </ol>
+      </div>
+      <script src="./main.js"></script>
+      
+    </body>
+</html>

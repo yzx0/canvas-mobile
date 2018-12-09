@@ -7,7 +7,7 @@ var lineWidth = 5
 //自动设置画布大小
 autoSetCanvasSize()
 
-//
+//工具选择
 toolSwitch()
 
 //选择铅笔颜色

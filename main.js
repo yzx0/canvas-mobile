@@ -68,7 +68,7 @@ function listenToPalette() {
 
 //特性检测
 function peculiarityDetection() {
-    if ('ontouchstart' in document.documentElement) { listenToTouch() }
+    if ('ontouchstart' in document.documentElement) { listenToTouch();console.log('当前是触屏设备')}
     else { listenToMouse() }
 }
 
